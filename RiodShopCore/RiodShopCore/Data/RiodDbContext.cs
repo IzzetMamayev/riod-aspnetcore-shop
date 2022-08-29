@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RiodShopCore.Entities;
+using RiodShopCore.Models.Entities;
 
 namespace RiodShopCore.Data
 {
@@ -24,5 +24,6 @@ namespace RiodShopCore.Data
         }
 
         public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Brand> Brands { get; set; }
     }
 }
